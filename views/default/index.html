@@ -11,10 +11,10 @@
 			  <div class="navbar-inner">
 				  <a class="brand" href="#">Tukker.Me</a>
 				  <ul class="nav">
-					  <li class="active"><a href="#">Home</a></li>
-					  <li><a href="#">Help</a></li>
-					  <li><a href="#">Login</a></li>
-					  <li><a href="#">Privacy</a></li>
+					  <li class="active"><a href="{{=URL(c="default",f="index")}}">Home</a></li>
+					  <li><a href="{{=URL(c="default",f="help")}}">Help</a></li>
+					  <li><a href="{{=URL(c="default",f="user", args="login")}}">Login</a></li>
+					  <li><a href="{{=URL(c="default",f="privacy")}}">Privacy</a></li>
 				  </ul>
 			  </div>
 		  </div>
@@ -26,16 +26,16 @@
       <p>Welcome to <strong>Tukker.Me</strong>, the new way to tell your friends and the world what you are thinking.</p>
               </div>
               <div class="span4 offset2">
-				  <button class="btn btn-large btn-primary" type="button">Register!</button>
+				  <a class="btn btn-large btn-primary" type="button" href="{{=URL(c="default",f="user", args="register")}}">Register!</a>
               </div>
           </div>
       </div>
       <div class="container">
 		  <div class="navbar navbar-fixed-bottom">
 		  <ul class="nav">
-					  <li><a href="#">About</a></li>
-					  <li><a href="#">Terms</a></li>
-					  <li><a href="#">Contact</a></li>
+					  <li><a href="{{=URL(c="default",f="about")}}">About</a></li>
+					  <li><a href="{{=URL(c="default",f="terms")}}">Terms</a></li>
+					  <li><a href="{{=URL(c="default",f="contact")}}">Contact</a></li>
 				  </ul>
 		  </div>
 		</div>
