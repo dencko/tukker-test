@@ -80,3 +80,12 @@ def privacy():
 
 def about():
 	return dict()
+
+def help():
+	return dict()
+
+def terms():
+	return dict()
+	
+def contact():
+	return dict()
