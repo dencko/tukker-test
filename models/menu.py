@@ -23,7 +23,7 @@ response.google_analytics_id = None
 response.menu = [
     (T('Home'), False, URL('default', 'index'), []),
     (T('Help'), False, URL('default', 'help'), []),
-    (T('Login'), False, URL('default', 'user', 'login'), []),
-    (T('Privacy'), False, URL('default', 'privacy'), []),
+    (T('Login'), False, URL('default', 'user'), []),
+    (T('Privacy'), False, URL('default', 'privacy'), [])
 ]
 
